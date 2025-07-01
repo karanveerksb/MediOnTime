@@ -1,0 +1,34 @@
+# Core Dependencies
+fastapi>=0.95.2
+uvicorn[standard]>=0.22.0
+python-dotenv>=1.0.0
+
+# Voice/API Integrations
+twilio>=8.3.0
+openai>=0.27.8
+google-generativeai>=0.3.2
+anthropic>=0.3.11
+deepgram-sdk>=3.0.0
+
+# Web/Network
+requests>=2.31.0
+websockets>=11.0.3
+httpx>=0.24.1
+
+# Scheduling & Async
+apscheduler
+anyio>=3.7.1
+
+# Data Modeling
+pydantic>=2.5.2
+typing-extensions>=4.7.1
+
+# UI
+streamlit>=1.27.2
+
+# Logging
+loguru>=0.7.2
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.1
